@@ -1,0 +1,15 @@
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\bin\Debug\net8.0\SimpleMastermindDemo.exe
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\bin\Debug\net8.0\SimpleMastermindDemo.deps.json
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\bin\Debug\net8.0\SimpleMastermindDemo.runtimeconfig.json
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\bin\Debug\net8.0\SimpleMastermindDemo.dll
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\bin\Debug\net8.0\SimpleMastermindDemo.pdb
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\obj\Debug\net8.0\SimpleMastermindDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\obj\Debug\net8.0\SimpleMastermindDemo.AssemblyInfoInputs.cache
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\obj\Debug\net8.0\SimpleMastermindDemo.AssemblyInfo.cs
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\obj\Debug\net8.0\SimpleMastermindDemo.csproj.CoreCompileInputs.cache
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\obj\Debug\net8.0\SimpleMastermindDemo.sourcelink.json
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\obj\Debug\net8.0\SimpleMastermindDemo.dll
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\obj\Debug\net8.0\refint\SimpleMastermindDemo.dll
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\obj\Debug\net8.0\SimpleMastermindDemo.pdb
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\obj\Debug\net8.0\SimpleMastermindDemo.genruntimeconfig.cache
+D:\repos\SimpleMastermindDemo\MastermindDemo\SimpleMastermindDemo\obj\Debug\net8.0\ref\SimpleMastermindDemo.dll

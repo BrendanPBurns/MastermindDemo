@@ -1,5 +1,10 @@
 ﻿namespace SimpleMastermindDemo.Mastermind.DataTypes
 {
+    public interface IInputSequence
+    {
+        bool SetValues(int[] input);
+    }
+
     public class InputSequence : BaseSequence
     {
         public bool Initalized { get; private set; }
