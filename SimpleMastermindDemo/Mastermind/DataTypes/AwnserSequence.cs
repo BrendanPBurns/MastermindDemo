@@ -1,10 +1,8 @@
 ﻿namespace SimpleMastermindDemo.Mastermind.DataTypes
 {
-    public interface IAwnserSequence
+    public interface IAwnserSequence : ISequence
     {
-        int Length { get; }
         int NumberOfOptions { get; }
-        int[] Digits { get; }
     }
 
     public class AwnserSequence : BaseSequence, IAwnserSequence
@@ -15,8 +13,6 @@
         {
             GenerateRandomValues();
         }
-
-        public int Length => Digits.Length;
 
         public int NumberOfOptions => _numberOfOptions;
 

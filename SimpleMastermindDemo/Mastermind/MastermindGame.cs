@@ -26,7 +26,9 @@ namespace SimpleMastermindDemo.Mastermind
                 var inputSequence = new InputSequence(_sequence.Length, _sequence.NumberOfOptions);
                 if (inputSequence.SetValues(StringToDigitInput(userInput)))
                 {
-                    
+                    var result = new Result(_sequence, inputSequence);
+                    PrintResults(result);
+                    if(result.Won) return true;
                     attempt++;                    
                 }
                 else
@@ -34,12 +36,21 @@ namespace SimpleMastermindDemo.Mastermind
                     Console.WriteLine("Invalid Input try again!");
                 }
             }
-            return true;
+            Console.WriteLine("You Lost");
+            return false;
         }
 
-        private void PrintResults()
+        private void PrintResults(Result result)
         {
-
+            for (int i = 0; i < (result.MatchingNumber - result.MatchingPlacements); i++)
+            {
+                Console.Write('-');
+            }
+            for (int i = 0; i < result.MatchingPlacements; i++)
+            {
+                Console.Write('+');
+            }
+            Console.WriteLine();
         }
 
         private int[] StringToDigitInput(string input)

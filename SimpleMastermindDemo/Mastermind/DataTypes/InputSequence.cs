@@ -1,11 +1,11 @@
 ﻿namespace SimpleMastermindDemo.Mastermind.DataTypes
 {
-    public interface IInputSequence
+    public interface IInputSequence : ISequence
     {
         bool SetValues(int[] input);
     }
 
-    public class InputSequence : BaseSequence
+    public class InputSequence : BaseSequence, IInputSequence
     {
         public bool Initalized { get; private set; }
 

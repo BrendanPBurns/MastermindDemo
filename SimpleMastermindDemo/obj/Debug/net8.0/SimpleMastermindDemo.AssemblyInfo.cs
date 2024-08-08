@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpleMastermindDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5695d9e4c5d6cc1dd1b8c291512079ac1d234f3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cff272ad8945c5f737c044f7a88405548de67c22")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpleMastermindDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpleMastermindDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
