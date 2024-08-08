@@ -8,7 +8,7 @@ namespace SimpleMastermindDemo.Mastermind.DataTypes
 {
     public abstract class BaseSequence
     {
-        private int _numberOfOptions;
+        protected int _numberOfOptions;
 
         public int[] Digits
         {
@@ -20,14 +20,6 @@ namespace SimpleMastermindDemo.Mastermind.DataTypes
         {
             Digits = new int[length];
             _numberOfOptions = numberOfOptions;
-        }
-
-        public void GenerateRandomValues()
-        {
-            for (int i = 0; i < Digits.Length; i++)
-            {
-
-            }
         }
     }
 }
