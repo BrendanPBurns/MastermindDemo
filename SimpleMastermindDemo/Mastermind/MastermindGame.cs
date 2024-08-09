@@ -16,6 +16,7 @@ namespace SimpleMastermindDemo.Mastermind
 
         public bool Play()
         {
+            //I commented out the extra fluff lines incase it needs to be tested automaticaly. :)
             //Console.WriteLine("Welcome to Mastermind!");
             //Console.WriteLine("We're all set up. So lets go.");
             var attempt = 1;
@@ -24,7 +25,7 @@ namespace SimpleMastermindDemo.Mastermind
                 //Console.Write($"Type {_sequence.Length} digits between 1 and {_sequence.NumberOfOptions} here:");
                 var userInput = Console.ReadLine();
                 var inputSequence = new InputSequence(_sequence.Length, _sequence.NumberOfOptions);
-                if (inputSequence.SetValues(StringToDigitInput(userInput)))
+                if (inputSequence.SetValues(MastermindInputParser.StringToDigits(userInput)))
                 {
                     var result = new GameRound(_sequence, inputSequence);
                     PrintResults(result);
@@ -53,19 +54,6 @@ namespace SimpleMastermindDemo.Mastermind
             Console.WriteLine();
         }
 
-        private int[] StringToDigitInput(string input)
-        {
-            var output = new List<int>();
 
-            foreach (char c in input)
-            {
-                if(int.TryParse(c.ToString(), out int number))
-                {
-                    output.Add(number);              
-                }
-            }
-
-            return output.ToArray();
-        }
     }
 }
