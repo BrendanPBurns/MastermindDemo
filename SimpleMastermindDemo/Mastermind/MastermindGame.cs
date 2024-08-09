@@ -16,31 +16,31 @@ namespace SimpleMastermindDemo.Mastermind
 
         public bool Play()
         {
-            Console.WriteLine("Welcome to Mastermind!");
-            Console.WriteLine("We're all set up. So lets go.");
+            //Console.WriteLine("Welcome to Mastermind!");
+            //Console.WriteLine("We're all set up. So lets go.");
             var attempt = 1;
             while (attempt <= _attempts)
             {
-                Console.Write($"Type {_sequence.Length} digits between 1 and {_sequence.NumberOfOptions} here:");
+                //Console.Write($"Type {_sequence.Length} digits between 1 and {_sequence.NumberOfOptions} here:");
                 var userInput = Console.ReadLine();
                 var inputSequence = new InputSequence(_sequence.Length, _sequence.NumberOfOptions);
                 if (inputSequence.SetValues(StringToDigitInput(userInput)))
                 {
-                    var result = new Result(_sequence, inputSequence);
+                    var result = new GameRound(_sequence, inputSequence);
                     PrintResults(result);
                     if(result.Won) return true;
                     attempt++;                    
                 }
                 else
                 {
-                    Console.WriteLine("Invalid Input try again!");
+                    //Console.WriteLine("Invalid Input try again!");
                 }
             }
             Console.WriteLine("You Lost");
             return false;
         }
 
-        private void PrintResults(Result result)
+        private void PrintResults(GameRound result)
         {
             for (int i = 0; i < (result.MatchingNumber - result.MatchingPlacements); i++)
             {

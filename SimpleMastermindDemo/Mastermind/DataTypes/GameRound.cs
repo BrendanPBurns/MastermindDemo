@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace SimpleMastermindDemo.Mastermind.DataTypes
 {
-    public class Result
+    public class GameRound
     {
         public int MatchingNumber { get; }
         public int MatchingPlacements { get; }
 
         public bool Won { get; }
 
-        public Result(IAwnserSequence awnserSequence, IInputSequence userSequence) 
+        public GameRound(IAwnserSequence awnserSequence, IInputSequence userSequence) 
         {
             var countOfUnseenNumbers = new Dictionary<int, int>();
 
